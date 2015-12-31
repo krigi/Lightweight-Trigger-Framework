@@ -3,7 +3,7 @@
 
 <p>Complex Apex trigger frameworks getting you down? This is a very lightweight trigger framework to get you started.</p> 
 
-<p>Full details and implementation steps can be found on my blog at <a href="http://chrisaldridge.com/triggers/lightweight-ap…gger-framework/" target="_blank">http://chrisaldridge.com</a>.</p>
+<p>Full details and implementation steps can be found on my blog at <a href="http://chrisaldridge.com/triggers/lightweight-apex-trigger-framework/" target="_blank">http://chrisaldridge.com</a>.</p>
 
 <h1>How to implement this trigger pattern</h1>
 <ol>
