@@ -15,7 +15,7 @@ Currently a work in progress. Will be published on http://chrisaldridge.com shor
 
 <h1>Deploy To Salesforce</h1>
 Clicking the below link will install the classes straight into your Salesforce org. Thanks to <a href="http://andyinthecloud.com/2013/09/24/deploy-direct-from-github-to-salesforce/">Andrew Fawcett</a> for the magic tool that does this.<br/>
-<a href="https://githubsfdeploy.herokuapp.com?owner=ChrisAldridge&repo=Lightweight-Trigger-Framework">
+<a href="https://githubsfdeploy.herokuapp.com?owner=ChrisAldridge&repo=Lightweight-Trigger-Framework" target="_blank">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
 </a>

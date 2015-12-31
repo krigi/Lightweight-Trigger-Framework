@@ -14,7 +14,7 @@ public class TriggerDispatcher
 		// Check to see if the trigger has been disabled. If it has, return
 		if (handler.IsDisabled())
 			return;
-			
+
 		// Detect the current trigger context and fire the relevant methods on the trigger handler:
 
 		// Before trigger logic
@@ -34,16 +34,16 @@ public class TriggerDispatcher
 		if (Trigger.IsAfter)
 		{
 			if (Trigger.IsInsert)
-				handler.afterInsert(Trigger.newMap);
+				handler.AfterInsert(Trigger.newMap);
 
 			if (Trigger.IsUpdate)
-				handler.afterUpdate(trigger.newMap, trigger.oldMap);
+				handler.AfterUpdate(trigger.newMap, trigger.oldMap);
 
 			if (trigger.IsDelete)
-				handler.afterDelete(trigger.oldMap);
+				handler.AfterDelete(trigger.oldMap);
 
 			if (trigger.isUndelete)
-				handler.afterUndelete(trigger.oldMap);
+				handler.AfterUndelete(trigger.oldMap);
 		}
 	}
 }

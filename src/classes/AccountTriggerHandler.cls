@@ -29,15 +29,15 @@ public class AccountTriggerHandler implements ITriggerHandler
 		AccountNameCheck((List<Account>)newitems.values());
 	}
 
-	public void beforeDelete(Map<Id, SObject> oldItems) {}
+	public void BeforeDelete(Map<Id, SObject> oldItems) {}
 
-	public void afterInsert(Map<Id, SObject> newItems) {}
+	public void AfterInsert(Map<Id, SObject> newItems) {}
 
-	public void afterUpdate(Map<Id, SObject> newItems, Map<Id, SObject> oldItems) {}
+	public void AfterUpdate(Map<Id, SObject> newItems, Map<Id, SObject> oldItems) {}
 
-	public void afterDelete(Map<Id, SObject> oldItems) {}
+	public void AfterDelete(Map<Id, SObject> oldItems) {}
 
-	public void afterUndelete(Map<Id, SObject> oldItems) {}
+	public void AfterUndelete(Map<Id, SObject> oldItems) {}
 
 	/*
 		Check the accounts to make sure their name does not contain the text "test".
