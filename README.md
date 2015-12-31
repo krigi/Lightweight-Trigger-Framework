@@ -1,7 +1,9 @@
 # Lightweight-Trigger-Framework
 A lightweight trigger handler framework for Salesforce Apex. <br />
 
-Currently a work in progress. Will be published on http://chrisaldridge.com shortly!. 
+Complex Apex trigger frameworks getting you down? This is a very lightweight trigger framework to get you started. <br />
+
+Full details and implementation steps can be found on my blog at <a href="http://chrisaldridge.com/triggers/lightweight-ap…gger-framework/" target="_blank">http://chrisaldridge.com</a><br />
 
 <h1>How to implement this trigger pattern</h1>
 <ol>
