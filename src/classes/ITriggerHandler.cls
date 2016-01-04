@@ -21,5 +21,6 @@ public interface ITriggerHandler
 
 	void AfterUndelete(Map<Id, SObject> oldItems);
 
+	// This method needs to be implemented to check whether or not trigger logic should run. You can remove this if this is not a requirement.
 	Boolean IsDisabled();
 }

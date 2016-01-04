@@ -1,5 +1,10 @@
 /*
-	Trigger handler for the Account object.
+	Example trigger handler for the Account object.
+
+	In this example, we are checking on both before insert and before update to ensure that the name of the account
+	does not include the string 'test'.
+
+	Note that we have to implement the other events (BeforeDelete, AfterInsert) etc even though we are not using them (yet).
 
 	Author: Chris Aldridge, http://chrisaldridge.com
 */
