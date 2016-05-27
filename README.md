@@ -21,3 +21,6 @@ Clicking the below link will install the classes straight into your Salesforce o
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png">
 </a>
+
+<h1>Licence</h1>
+<p>This project is licensed under the terms of the MIT license.</p>
